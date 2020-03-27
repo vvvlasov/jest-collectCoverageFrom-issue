@@ -1,0 +1,17 @@
+{
+  "name": "jest-collectcoveragefrom-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "jest": "24"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/serviceC/**"
+    ]
+  }
+}
